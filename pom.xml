@@ -15,6 +15,13 @@
             <version>6.9.9</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>by.epam.lecture3.task1.Solution</groupId>
+            <artifactId>task1</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/Task1.jar</systemPath>
+        </dependency>
     </dependencies>
 
 </project>
